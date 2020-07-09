@@ -1,8 +1,8 @@
 package LinkedLists;
 
 public class LoopDetection {
-    public ListNode loopDetection(ListNode n) {
-        if (n == null || n.next == null) return null;
+    public ListNode loopDetection(ListNode head) {
+        if (head == null || head.next == null) return null;
         ListNode slow = head;
         ListNode fast = head.next;
         while (slow != fast) {
