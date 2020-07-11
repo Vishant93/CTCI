@@ -3,10 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="314ab9bf-36a7-4cf4-a2df-fa1bfc5447e3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LinkedLists/DeleteMiddleNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedLists/DeleteMiddleNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LinkedLists/LoopDetection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedLists/LoopDetection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LinkedLists/SumLists.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedLists/SumLists.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/RecursionAndDynamicProgramming/TripleStep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RecursionAndDynamicProgramming/TripleStep.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -40,7 +36,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TripleStep">
+  <component name="RunManager" selected="Application.MagicIndex">
     <configuration default="true" type="ClojureREPL" factoryName="Local" activateToolWindowBeforeRun="false">
       <setting name="replType" value="NREPL" />
       <setting name="execution" value="LEININGEN" />
@@ -59,12 +55,12 @@
       <module name="" />
       <method v="2" />
     </configuration>
-    <configuration name="OneAway" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ArraysAndStrings.OneAway" />
+    <configuration name="MagicIndex" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="RecursionAndDynamicProgramming.MagicIndex" />
       <module name="CTCI" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ArraysAndStrings.*" />
+          <option name="PATTERN" value="RecursionAndDynamicProgramming.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -126,11 +122,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MagicIndex" />
         <item itemvalue="Application.TripleStep" />
         <item itemvalue="Application.RotateString" />
         <item itemvalue="Application.RotateArray" />
         <item itemvalue="Application.StringCompression" />
-        <item itemvalue="Application.OneAway" />
       </list>
     </recent_temporary>
   </component>
