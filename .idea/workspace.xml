@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="314ab9bf-36a7-4cf4-a2df-fa1bfc5447e3" name="Default Changelist" comment="" />
+    <list default="true" id="314ab9bf-36a7-4cf4-a2df-fa1bfc5447e3" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,7 +22,7 @@
   </component>
   <component name="ProjectId" id="1e78jmhD2h92np57pzaNCSPbXXr" />
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -34,7 +36,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MagicIndex">
+  <component name="RunManager" selected="Application.RecursiveMultiply">
     <configuration default="true" type="ClojureREPL" factoryName="Local" activateToolWindowBeforeRun="false">
       <setting name="replType" value="NREPL" />
       <setting name="execution" value="LEININGEN" />
@@ -55,6 +57,19 @@
     </configuration>
     <configuration name="MagicIndex" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="RecursionAndDynamicProgramming.MagicIndex" />
+      <module name="CTCI" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="RecursionAndDynamicProgramming.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RecursiveMultiply" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="RecursionAndDynamicProgramming.RecursiveMultiply" />
       <module name="CTCI" />
       <extension name="coverage">
         <pattern>
@@ -92,19 +107,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringCompression" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ArraysAndStrings.StringCompression" />
-      <module name="CTCI" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ArraysAndStrings.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TripleStep" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="RecursionAndDynamicProgramming.TripleStep" />
       <module name="CTCI" />
@@ -120,11 +122,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RecursiveMultiply" />
         <item itemvalue="Application.MagicIndex" />
         <item itemvalue="Application.TripleStep" />
         <item itemvalue="Application.RotateString" />
         <item itemvalue="Application.RotateArray" />
-        <item itemvalue="Application.StringCompression" />
       </list>
     </recent_temporary>
   </component>
