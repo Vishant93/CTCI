@@ -1,0 +1,30 @@
+13.1 Private Constructor: In terms of inheritance, what is the effect of keeping a consturctor private?
+
+Keeping a constructor private means that you can only access the private constructor if you can also access that class's private methods.
+Ie if a class is an inner class of the parent, it can.
+
+13.2 Return from Finally: In Java, does the finally block get executed if we insert a return statement inside the try block of a try-catch-finally?
+
+Yes, it will get executed, there are only two situations where it won't:
+If the virtual machine exits during try/catch block or if the thread terminates during try/catch.
+
+13.3 What is the difference between final, finally, and finalize?
+
+Final is used to control whether a variable is changeable.
+Finally is use in a try/catch block to ensure that a segment of code is executed.
+finalize() is called by the garbage collector once it determines that no more references exist.
+
+13.4 Explain the difference between templates in C++ and generics in Java.
+
+Generics in Java utilize type erasure, which means the explicit type annotations are removed at compile time.
+
+13.5 Explain the differences between TreeMap, HashMap and LinkedHashMap. Provid an example of when each one would be best.
+
+HashMap has a O(1) lookup and insertion cost.
+TreeMap has a O(logN) lookup and insertion cost, keys are ordered.
+LinkedHashMap has a O(1) lookup and insertion cost. Keys ordered by insertion order, implemented by doubly-linked buckets.
+
+13.6 Explain what object reflection is in Java and why it is useful.
+Object reflection is a feature in Java that provides a way to get reflective information about Java classes and
+objects and perform actions. You can get information about methods and fields inside the class, create a new instance
+of a class, and get/set object fields directly.
